@@ -18,7 +18,7 @@ jobs:
           python-version: '3.12'
 
       - name: Set up bun
-        uses: oven-sh/setup-bun@v1
+        uses: oven-sh/setup-bun@v2
 
       - name: Install dependencies
         run: |
