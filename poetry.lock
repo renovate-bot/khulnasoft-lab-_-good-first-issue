@@ -241,16 +241,17 @@ test-randomorder = ["pytest-randomly"]
 
 [[package]]
 name = "emoji"
-version = "0.6.0"
+version = "2.14.1"
 description = "Emoji for Python"
 optional = false
-python-versions = "*"
+python-versions = ">=3.7"
 files = [
-    {file = "emoji-0.6.0.tar.gz", hash = "sha256:e42da4f8d648f8ef10691bc246f682a1ec6b18373abfd9be10ec0b398823bd11"},
+    {file = "emoji-2.14.1-py3-none-any.whl", hash = "sha256:35a8a486c1460addb1499e3bf7929d3889b2e2841a57401903699fef595e942b"},
+    {file = "emoji-2.14.1.tar.gz", hash = "sha256:f8c50043d79a2c1410ebfae833ae1868d5941a67a6cd4d18377e2eb0bd79346b"},
 ]
 
 [package.extras]
-dev = ["coverage", "coveralls", "pytest"]
+dev = ["coverage", "pytest (>=7.4.4)"]
 
 [[package]]
 name = "github3-py"
@@ -599,4 +600,4 @@ dev = ["black (>=19.3b0)", "pytest (>=4.6.2)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "4f6c9f1c40c4fcdb4e4472f5e30c758de96ae8f9431e8ca3b04cf0c933aff0b3"
+content-hash = "705f6925547add8f67c11747e67abacc6cf0fbe22ff0e6f27239643ded519246"

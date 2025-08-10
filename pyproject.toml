@@ -10,7 +10,7 @@ python = "^3.9"
 "github3.py" = "^4.0.1"
 toml = "^0.10.2"
 numerize = "^0.12"
-emoji = "^0.6.0"
+emoji = "^2.0.0"
 requests = "^2.23.0"
 python-slugify = "^4.0.1"
 
